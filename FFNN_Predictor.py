@@ -46,11 +46,9 @@ classifier = Sequential()
 
 
 # Adding the input layer and the first hidden layer
-# The missing line of code here....
 classifier.add(Dense(units=9, activation='relu', input_dim=11))
 
 # Adding second hidden layer
-# The missing line of code here....
 classifier.add(Dense(units=9, activation='relu'))
 
 # Adding output layer
